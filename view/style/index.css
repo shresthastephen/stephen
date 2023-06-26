@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navigation */
+
+.branding {
+    font-size: 22px;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+span {
+    color: blue;
+}
+
+.navigation {
+    height: 10vh;
+    width: 100%;
+    padding: 0 2rem;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #000; */
+}
+
+
+.right a{
+    margin: 0 .5rem;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.login{
+    padding: .25rem .5rem;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+.login a:hover{
+    border: blue;
+}
+
+
+/* Front-section */
+.front-img {
+    position: relative;
+    height: 90vh;
+}
+.front-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* Search-Box */
+.search-box {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 80%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.search-box input {
+    border: 2px solid black;
+    border-right: none;
+    width: 20rem;
+    height: 3rem;
+    padding: 0 .5rem 0 .75rem;
+    /* border: none; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-box i {
+    width: 3.5rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+/* recent- listing */
+
+.listing{
+    width: 250px;
+    border: 2px solid black;
+
+}
+
+.list-img{
+    width: 100%;
+    height: 175px;
+}
+
+.list-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-subtext{
+    margin-top: .8rem;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+ 
+
+/* footer section */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot-img img {
+    width: 100%;
+   
+
+}
+
+.main_foot {
+    text-align: center;
+    background-color: #666666;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
